@@ -1,0 +1,23 @@
+[
+  {
+	"startdate"  : "2001",
+	"enddate"    : "2002",
+	"company"    : "Lorem Co.",
+	"position"   : "Back-end Developer",
+	"description": "I developed an application."
+  },
+  {
+	"startdate"  : "2002",
+	"enddate"    : "2005",
+	"company"    : "Ipsum Co.",
+	"position"   : "Modile Developer",
+	"description": "Tried iOS and Android development."
+  },
+  {
+	"startdate"  : "2005",
+	"enddate"    : "2013",
+	"company"    : "Hooray Company",
+	"position"   : "Manager",
+	"description": "Manage of Hooray people."
+  }
+]

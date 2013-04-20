@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Test Resume</title>
+	<script type="text/javascript" src="jquery-min.js"></script>
+	<script type="text/javascript" src="underscore-min.js"></script>
+	<script type="text/javascript" src="backbone-min.js"></script>
+	<script type="text/javascript" src="backbone.marionette-min.js"></script>
+</head>
+<body>
+	<script type="text/template" id="infoTpl">
+		<h1><%= firstname %> <%= lastname %></h1>
+		<p><strong>Email:</strong> <%= email %></p>
+		<p><%= description %></p>
+	</script>
+	<script type="text/template" id="jobsList">
+		<h1>Jobs</h1>
+		<ol></ol>
+	</script>
+	<script type="text/template" id="jobRow">
+		From <%= startdate %> to <%= enddate %>: <strong><%= position %> at <%= company %></strong>
+	</script>
+</body>
+	<div id="info"></div>
+	<div id="jobs"></div>
+	<script type="text/javascript" src="app-marionette.js"></script>
+	<!--<script type="text/javascript" src="app-backbone.js"></script>-->
+</html>
